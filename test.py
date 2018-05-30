@@ -54,16 +54,18 @@ class Policy(nn.Module):
     # cnn_layers is a list of lists that represent a layer. i.e. [[input_ch, out_ch, kernel_size, stride, padding], [.....]] is a list with two convolutional layers.
     def __init__(self):
         super(Policy, self).__init__()
-        self.conv1 = nn.Conv2d(4,32,8,stride=4,padding=0)
-        self.conv2 = nn.Conv2d(32,64,4,stride=2,padding=0)
-        self.conv3 = nn.Conv2d(64,64,3,stride=1,padding=0)
+        self.conv1 = nn.Conv2d(4,32,3,stride=2,padding=0)
+        self.conv2 = nn.Conv2d(32,32,3,stride=2,padding=0)
+        self.conv3 = nn.Conv2d(32,32,3,stride=2,padding=0)
+        self.conv4 = nn.Conv2d(32,32,3,stride=2,padding=0)
 
-        self.fc1= nn.Linear(2304, 512)
-        self.fc2= nn.Linear(512, 2)
+        self.fc1= nn.Linear(800, 256)
+        self.fc2= nn.Linear(256, 2)
 
 
         self.saved_log_probs = []
         self.rewards = []
+        self.states = []
         self.running_reward = 10
 
     def forward(self, x):
@@ -72,7 +74,7 @@ class Policy(nn.Module):
         x = F.relu(self.conv2(x))
         x = F.relu(self.conv3(x))
 
-        x = x.view(-1, 2304)
+        x = x.view(-1, 800)
 
         x = F.relu(self.fc1(x))
         #x = F.relu(self.fc2(x))
@@ -110,15 +112,26 @@ def finish_episode():
         rewards.insert(0, R)
     rewards = torch.tensor(rewards)
     rewards = (rewards - rewards.mean()) / (rewards.std() + eps)
-    for loss, reward in zip(policy.saved_log_probs, rewards):
-        policy_loss.append(loss * reward)
 
     optimizer.zero_grad()
-    policy_loss = torch.cat(policy_loss).sum()
-    print(policy_loss)
-    policy_loss.backward()
+    for reward, state in zip(rewards, policy.states):
+
+        state = torch.from_numpy(state).float()
+        state.requires_grad=True
+        probs = policy(state)#The output of the model
+        m = Categorical(probs)
+        action = m.sample() #The "Fake label"
+        policy_loss = criterion(probs, action) * reward
+        policy_loss.backward()
+
+    #   policy_loss.append(loss * reward)
+
+
+    #policy_loss = torch.cat(policy_loss).sum()
+    #policy_loss.backward()
     optimizer.step()
 
+    del policy.states[:]
     del policy.rewards[:]
     del policy.saved_log_probs[:]
 
@@ -138,7 +151,7 @@ def _preprocess_observation(observation):
     image[image == 1] = 255
     image[image < 255 ] = 0
 
-    return misc.imresize((255 - image.astype(np.uint8)), (80, 80))
+    return misc.imresize((255 - image.astype(np.uint8)), (47, 47))
 
 def main():
     threshold = 0
@@ -170,9 +183,13 @@ def main():
 
                 s_t3 = np.append(s_t2, states[len(states)-3], axis=1)
                 state = s_t3
+                policy.rewards.append(reward)
+                policy.states.append(state)
             if t>3:
                 s_t1 = np.append(state, states[len(states)-1][:,:3,:,:], axis=1)
                 state = s_t1
+                policy.rewards.append(reward)
+                policy.states.append(state)
             states.append(state.copy())
 
 
@@ -180,17 +197,20 @@ def main():
             #time.sleep(0.3)
             if render:
                 env.render()
-            if reward<0:
-                reward=-1
-                policy.rewards[threshold:]=[-1]*len(policy.rewards[threshold:])
-                threshold = episode_length
+
+            if t>=3:
+                if reward<0:
+                    reward=-1
+                    policy.rewards[threshold:]=[-1]*len(policy.rewards[threshold:])
+                    threshold = episode_length
 
 
-            if reward>0:
-                reward=5
-                policy.rewards[threshold:]= [1]*len(policy.rewards[threshold:])
-                threshold = episode_length
-            policy.rewards.append(reward)
+                if reward>0:
+                    reward=5
+                    policy.rewards[threshold:]= [1]*len(policy.rewards[threshold:])
+                    threshold = episode_length
+
+
             if done:
                 break
             episode_length +=1
