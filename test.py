@@ -41,7 +41,7 @@ decay_rate = 0.99 # decay factor for RMSProp leaky sum of grad^2
 resume = False
 
 # resume from previous checkpoint?
-batch_size = 5
+batch_size = 1
 render = True
 max_episodes = 1000
 date_time = time.strftime("%Y.%m.%d-%H.%M.%S")
@@ -93,6 +93,7 @@ eps = np.finfo(np.float32).eps.item()
 
 def select_action(state):
     state = torch.from_numpy(state).float()
+    state.requires_grad=True
     probs = policy(state)#The output of the model
     m = Categorical(probs)
     action = m.sample() #The "Fake label"
@@ -114,6 +115,7 @@ def finish_episode():
 
     optimizer.zero_grad()
     policy_loss = torch.cat(policy_loss).sum()
+    print(policy_loss)
     policy_loss.backward()
     optimizer.step()
 
