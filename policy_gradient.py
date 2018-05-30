@@ -1,30 +1,12 @@
-
 import torch
 import torch.nn as nn
-import torch.nn.functional as F
-import torch.optim as optim
-from torch.autograd import Variable
-from torch.distributions import Categorical
-
-
-
 import numpy as np
-import gym
-import gym_ple
-from PIL import Image
-from scipy import misc
-import time
 from environment import Envir
-
+import torch.optim as optim
 
 batch_size = 10 # every how many episodes to do a param update?
-learning_rate = 1e-4
-gamma = 0.99 # discount factor for reward
-decay_rate = 0.99 # decay factor for RMSProp leaky sum of grad^2
-resume = False # resume from previous checkpoint?
-render = False
-max_episodes = 1000
-batch_size = 1
+
+
 
 D = 100 * 100 # input dimensionality: 80x80 grid
 
@@ -46,22 +28,28 @@ def main():
 
     env = Envir('FlappyBird-v0',False)
 
+    optimizer = optim.RMSprop(env.policy.parameters(), lr=learning_rate, weight_decay=decay_rate)
+
     for e in range(0, max_episodes):
 
         env.step()
 
 
+        discounted_epr = discount_rewards(np.vstack(env.rewards))
+            # standardize the rewards to be unit normal (helps control the gradient estimator variance)
+        discounted_epr -= np.mean(discounted_epr)
+        discounted_epr /= np.std(discounted_epr)
 
-        if e >= 0 and e % batch_size == 0:
 
-            epdlogp = np.vstack(env.log_probs)
-            discounted_epr = discount_rewards(np.vstack(env.rewards))
-                # standardize the rewards to be unit normal (helps control the gradient estimator variance)
-            discounted_epr -= np.mean(discounted_epr)
-            discounted_epr /= np.std(discounted_epr)
-            epdlogp *= discounted_epr
-            for log_prob, reward in zip(env.log_probs, rewards):
-                policy_loss.append(-log_prob * reward)
+        policy_loss = []
+        for log_prob, reward in zip(env.log_probs, discounted_epr):
+            policy_loss.append(-log_prob * reward)
+
+        optimizer.zero_grad()
+
+        policy_loss = torch.cat(policy_loss).sum()
+        policy_loss.backward()
+        optimizer.step()
 
         env.reset()
 

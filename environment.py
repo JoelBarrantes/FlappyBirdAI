@@ -1,23 +1,17 @@
 import gym
 import time
 import numpy as np
-from PIL import Image
-import scipy.misc
 import cv2
-
-import scipy.ndimage
-from skimage import measure
-import skimage
-
-from policy import Policy
 import torch
-import torch.nn as nn
-import torch.nn.functional as F
-import torch.optim as optim
+import gym_ple
+
 from torch.autograd import Variable
 from torch.distributions import Categorical
 from scipy import misc
-from skimage import transform
+from skimage import measure
+from policy import Policy
+
+
 
 ACTION_SPACE = {'Pong-v0': [0, 2, 3],  # NONE, UP and DOWN.
                 'FlappyBird-v0': [0, 1], #DO NOTHING, PRESS THE BUTTON
@@ -58,6 +52,7 @@ class Envir():
         self.state = _preprocess_observation(self.environment.reset())
         self.episode_start_time = time.time()
         self.episode_run_time = 0
+
         self.observations = []
         self.rewards = []
         self.actions = []
