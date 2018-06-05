@@ -1,0 +1,504 @@
+tensor(-3.0999)
+Episode 1	Episode length:    59	Average length: 59.00
+tensor(-3.4859)
+Episode 2	Episode length:    59	Average length: 59.00
+tensor(-1.0539)
+Episode 3	Episode length:    47	Average length: 55.00
+tensor(-3.1074)
+Episode 4	Episode length:    43	Average length: 52.00
+tensor(-3.3788)
+Episode 5	Episode length:    57	Average length: 53.00
+tensor(-2.2262)
+Episode 6	Episode length:    59	Average length: 54.00
+tensor(-0.2751)
+Episode 7	Episode length:    45	Average length: 52.71
+tensor(-3.4308)
+Episode 8	Episode length:    59	Average length: 53.50
+tensor(-0.6908)
+Episode 9	Episode length:    52	Average length: 53.33
+tensor(0.4306)
+Episode 10	Episode length:    44	Average length: 52.40
+tensor(1.8390)
+Episode 11	Episode length:    53	Average length: 52.45
+tensor(-2.5429)
+Episode 12	Episode length:    45	Average length: 51.83
+tensor(-3.9173)
+Episode 13	Episode length:    53	Average length: 51.92
+tensor(-1.1599)
+Episode 14	Episode length:    44	Average length: 51.36
+tensor(0.2342)
+Episode 15	Episode length:    57	Average length: 51.73
+tensor(-2.0101)
+Episode 16	Episode length:    43	Average length: 51.19
+tensor(-1.5369)
+Episode 17	Episode length:    59	Average length: 51.65
+tensor(-2.6856)
+Episode 18	Episode length:    40	Average length: 51.00
+tensor(-0.5604)
+Episode 19	Episode length:    53	Average length: 51.11
+tensor(-4.0698)
+Episode 20	Episode length:    33	Average length: 50.20
+tensor(-3.8594)
+Episode 21	Episode length:    59	Average length: 50.62
+tensor(0.2222)
+Episode 22	Episode length:    47	Average length: 50.45
+tensor(-4.2582)
+Episode 23	Episode length:    59	Average length: 50.83
+tensor(-1.8448)
+Episode 24	Episode length:    52	Average length: 50.88
+tensor(-3.5117)
+Episode 25	Episode length:    50	Average length: 50.84
+tensor(-3.5544)
+Episode 26	Episode length:    49	Average length: 50.77
+tensor(-1.8105)
+Episode 27	Episode length:    50	Average length: 50.74
+tensor(-1.3178)
+Episode 28	Episode length:    59	Average length: 51.04
+tensor(-6.1823)
+Episode 29	Episode length:    56	Average length: 51.21
+tensor(-3.9413)
+Episode 30	Episode length:    59	Average length: 51.47
+tensor(-1.5474)
+Episode 31	Episode length:    43	Average length: 51.19
+tensor(-3.1795)
+Episode 32	Episode length:    57	Average length: 51.38
+tensor(-3.5579)
+Episode 33	Episode length:    64	Average length: 51.76
+tensor(-0.1547)
+Episode 34	Episode length:    46	Average length: 51.59
+tensor(-3.4252)
+Episode 35	Episode length:    56	Average length: 51.71
+tensor(-1.4608)
+Episode 36	Episode length:    47	Average length: 51.58
+tensor(2.3017)
+Episode 37	Episode length:    44	Average length: 51.38
+tensor(-4.0745)
+Episode 38	Episode length:    50	Average length: 51.34
+tensor(2.8458)
+Episode 39	Episode length:    47	Average length: 51.23
+tensor(-0.6264)
+Episode 40	Episode length:    59	Average length: 51.42
+tensor(-3.0200)
+Episode 41	Episode length:    50	Average length: 51.39
+tensor(0.5806)
+Episode 42	Episode length:    42	Average length: 51.17
+tensor(-2.2416)
+Episode 43	Episode length:    50	Average length: 51.14
+tensor(-1.3998)
+Episode 44	Episode length:    47	Average length: 51.05
+tensor(3.2101)
+Episode 45	Episode length:    51	Average length: 51.04
+tensor(-2.2912)
+Episode 46	Episode length:    49	Average length: 51.00
+tensor(-2.1369)
+Episode 47	Episode length:    42	Average length: 50.81
+tensor(-2.0349)
+Episode 48	Episode length:    42	Average length: 50.62
+tensor(-5.3251)
+Episode 49	Episode length:    59	Average length: 50.80
+tensor(-0.5094)
+Episode 50	Episode length:    41	Average length: 50.60
+tensor(-3.4529)
+Episode 51	Episode length:    56	Average length: 50.71
+tensor(0.5975)
+Episode 52	Episode length:    42	Average length: 50.54
+tensor(-2.3973)
+Episode 53	Episode length:    53	Average length: 50.58
+tensor(-2.1704)
+Episode 54	Episode length:    59	Average length: 50.74
+tensor(1.00000e-02 *
+       1.5769)
+Episode 55	Episode length:    59	Average length: 50.89
+tensor(1.2602)
+Episode 56	Episode length:    39	Average length: 50.68
+tensor(-0.7285)
+Episode 57	Episode length:    59	Average length: 50.82
+tensor(-2.9353)
+Episode 58	Episode length:    48	Average length: 50.78
+tensor(-2.0096)
+Episode 59	Episode length:    41	Average length: 50.61
+tensor(-0.6713)
+Episode 60	Episode length:    54	Average length: 50.67
+tensor(-0.6284)
+Episode 61	Episode length:    47	Average length: 50.61
+tensor(-4.6309)
+Episode 62	Episode length:    47	Average length: 50.55
+tensor(-1.0801)
+Episode 63	Episode length:    59	Average length: 50.68
+tensor(-4.1610)
+Episode 64	Episode length:    59	Average length: 50.81
+tensor(-2.5370)
+Episode 65	Episode length:    59	Average length: 50.94
+tensor(-2.2123)
+Episode 66	Episode length:    43	Average length: 50.82
+tensor(-1.4937)
+Episode 67	Episode length:    48	Average length: 50.78
+tensor(-1.9882)
+Episode 68	Episode length:    52	Average length: 50.79
+tensor(-2.6638)
+Episode 69	Episode length:    42	Average length: 50.67
+tensor(-3.4192)
+Episode 70	Episode length:    49	Average length: 50.64
+tensor(-0.1566)
+Episode 71	Episode length:    42	Average length: 50.52
+tensor(-2.1550)
+Episode 72	Episode length:    55	Average length: 50.58
+tensor(-4.5461)
+Episode 73	Episode length:    59	Average length: 50.70
+tensor(-2.9139)
+Episode 74	Episode length:    45	Average length: 50.62
+tensor(-2.1878)
+Episode 75	Episode length:    43	Average length: 50.52
+tensor(-3.9202)
+Episode 76	Episode length:    59	Average length: 50.63
+tensor(1.0842)
+Episode 77	Episode length:    44	Average length: 50.55
+tensor(-3.8357)
+Episode 78	Episode length:    46	Average length: 50.49
+tensor(-3.8168)
+Episode 79	Episode length:    43	Average length: 50.39
+tensor(-2.3344)
+Episode 80	Episode length:    43	Average length: 50.30
+tensor(-0.4562)
+Episode 81	Episode length:    49	Average length: 50.28
+tensor(-1.9593)
+Episode 82	Episode length:    45	Average length: 50.22
+tensor(-0.9196)
+Episode 83	Episode length:    59	Average length: 50.33
+tensor(1.3922)
+Episode 84	Episode length:    68	Average length: 50.54
+tensor(-1.5935)
+Episode 85	Episode length:    54	Average length: 50.58
+tensor(-3.4796)
+Episode 86	Episode length:    57	Average length: 50.65
+tensor(-0.1670)
+Episode 87	Episode length:    46	Average length: 50.60
+tensor(-3.4496)
+Episode 88	Episode length:    53	Average length: 50.62
+tensor(0.6100)
+Episode 89	Episode length:    44	Average length: 50.55
+tensor(-3.8853)
+Episode 90	Episode length:    44	Average length: 50.48
+tensor(-4.1543)
+Episode 91	Episode length:    59	Average length: 50.57
+tensor(-0.6117)
+Episode 92	Episode length:    59	Average length: 50.66
+tensor(-2.2298)
+Episode 93	Episode length:    46	Average length: 50.61
+tensor(-5.6519)
+Episode 94	Episode length:    45	Average length: 50.55
+tensor(-1.0815)
+Episode 95	Episode length:    57	Average length: 50.62
+tensor(-5.6414)
+Episode 96	Episode length:    44	Average length: 50.55
+tensor(7.0733)
+Episode 97	Episode length:    64	Average length: 50.69
+tensor(-1.0106)
+Episode 98	Episode length:    59	Average length: 50.78
+tensor(-1.5905)
+Episode 99	Episode length:    59	Average length: 50.86
+tensor(-4.3490)
+Episode 100	Episode length:    46	Average length: 50.81
+tensor(0.1533)
+Episode 101	Episode length:    59	Average length: 50.89
+tensor(-2.1783)
+Episode 102	Episode length:    55	Average length: 50.93
+tensor(1.3694)
+Episode 103	Episode length:    57	Average length: 50.99
+tensor(1.9226)
+Episode 104	Episode length:    51	Average length: 50.99
+tensor(-0.3678)
+Episode 105	Episode length:    74	Average length: 51.21
+tensor(-1.1230)
+Episode 106	Episode length:    47	Average length: 51.17
+tensor(-3.9940)
+Episode 107	Episode length:    55	Average length: 51.21
+tensor(-2.9666)
+Episode 108	Episode length:    54	Average length: 51.23
+tensor(-1.4450)
+Episode 109	Episode length:    54	Average length: 51.26
+tensor(-2.5430)
+Episode 110	Episode length:    45	Average length: 51.20
+tensor(1.00000e-02 *
+       4.7266)
+Episode 111	Episode length:    54	Average length: 51.23
+tensor(-2.7297)
+Episode 112	Episode length:    57	Average length: 51.28
+tensor(-2.1511)
+Episode 113	Episode length:    59	Average length: 51.35
+tensor(-3.2556)
+Episode 114	Episode length:    35	Average length: 51.20
+tensor(-1.6149)
+Episode 115	Episode length:    48	Average length: 51.17
+tensor(-2.6834)
+Episode 116	Episode length:    39	Average length: 51.07
+tensor(-3.1815)
+Episode 117	Episode length:    56	Average length: 51.11
+tensor(-0.1669)
+Episode 118	Episode length:    59	Average length: 51.18
+tensor(-3.1929)
+Episode 119	Episode length:    41	Average length: 51.09
+tensor(-1.5227)
+Episode 120	Episode length:    48	Average length: 51.07
+tensor(-0.1398)
+Episode 121	Episode length:    52	Average length: 51.07
+tensor(-4.3883)
+Episode 122	Episode length:    41	Average length: 50.99
+tensor(-0.6441)
+Episode 123	Episode length:    54	Average length: 51.02
+tensor(-6.1276)
+Episode 124	Episode length:    55	Average length: 51.05
+tensor(-6.4212)
+Episode 125	Episode length:    49	Average length: 51.03
+tensor(-3.8679)
+Episode 126	Episode length:    58	Average length: 51.09
+tensor(-5.1228)
+Episode 127	Episode length:    58	Average length: 51.14
+tensor(-2.3362)
+Episode 128	Episode length:    59	Average length: 51.20
+tensor(-6.1777)
+Episode 129	Episode length:    59	Average length: 51.26
+tensor(-6.7151)
+Episode 130	Episode length:    59	Average length: 51.32
+tensor(-1.7925)
+Episode 131	Episode length:    59	Average length: 51.38
+tensor(-3.6386)
+Episode 132	Episode length:    45	Average length: 51.33
+tensor(-4.8944)
+Episode 133	Episode length:    37	Average length: 51.23
+tensor(0.2366)
+Episode 134	Episode length:    53	Average length: 51.24
+tensor(-5.4902)
+Episode 135	Episode length:    36	Average length: 51.13
+tensor(-4.6945)
+Episode 136	Episode length:    48	Average length: 51.10
+tensor(-2.0247)
+Episode 137	Episode length:    36	Average length: 50.99
+tensor(0.7000)
+Episode 138	Episode length:    54	Average length: 51.01
+tensor(-4.7083)
+Episode 139	Episode length:    52	Average length: 51.02
+tensor(0.2701)
+Episode 140	Episode length:    54	Average length: 51.04
+tensor(-5.2159)
+Episode 141	Episode length:    59	Average length: 51.10
+tensor(0.9348)
+Episode 142	Episode length:    55	Average length: 51.13
+tensor(-6.5977)
+Episode 143	Episode length:    59	Average length: 51.18
+tensor(-1.2423)
+Episode 144	Episode length:    52	Average length: 51.19
+tensor(-0.9351)
+Episode 145	Episode length:    52	Average length: 51.19
+tensor(-0.3423)
+Episode 146	Episode length:    50	Average length: 51.18
+tensor(-1.9743)
+Episode 147	Episode length:    53	Average length: 51.20
+tensor(-2.1368)
+Episode 148	Episode length:    35	Average length: 51.09
+tensor(-4.3307)
+Episode 149	Episode length:    59	Average length: 51.14
+tensor(-5.5426)
+Episode 150	Episode length:    55	Average length: 51.17
+tensor(-2.4983)
+Episode 151	Episode length:    43	Average length: 51.11
+tensor(-2.9293)
+Episode 152	Episode length:    40	Average length: 51.04
+tensor(4.1510)
+Episode 153	Episode length:    66	Average length: 51.14
+tensor(-2.7007)
+Episode 154	Episode length:    59	Average length: 51.19
+tensor(-1.1342)
+Episode 155	Episode length:    41	Average length: 51.12
+tensor(-3.3087)
+Episode 156	Episode length:    59	Average length: 51.17
+tensor(-3.8948)
+Episode 157	Episode length:    50	Average length: 51.17
+tensor(-3.3435)
+Episode 158	Episode length:    59	Average length: 51.22
+tensor(1.00000e-02 *
+       3.4868)
+Episode 159	Episode length:    60	Average length: 51.27
+tensor(-3.6652)
+Episode 160	Episode length:    45	Average length: 51.23
+tensor(-2.1255)
+Episode 161	Episode length:    50	Average length: 51.22
+tensor(-4.3428)
+Episode 162	Episode length:    59	Average length: 51.27
+tensor(-1.6767)
+Episode 163	Episode length:    52	Average length: 51.28
+tensor(-2.8106)
+Episode 164	Episode length:    53	Average length: 51.29
+tensor(-3.9117)
+Episode 165	Episode length:    49	Average length: 51.27
+tensor(-2.1773)
+Episode 166	Episode length:    41	Average length: 51.21
+tensor(-2.1260)
+Episode 167	Episode length:    48	Average length: 51.19
+tensor(-2.8713)
+Episode 168	Episode length:    50	Average length: 51.18
+tensor(-3.3288)
+Episode 169	Episode length:    59	Average length: 51.23
+tensor(-2.4658)
+Episode 170	Episode length:    59	Average length: 51.28
+tensor(-3.5852)
+Episode 171	Episode length:    53	Average length: 51.29
+tensor(-1.0142)
+Episode 172	Episode length:    33	Average length: 51.18
+tensor(-3.5815)
+Episode 173	Episode length:    57	Average length: 51.21
+tensor(-1.5606)
+Episode 174	Episode length:    55	Average length: 51.24
+tensor(-0.7217)
+Episode 175	Episode length:    52	Average length: 51.24
+tensor(-2.1586)
+Episode 176	Episode length:    46	Average length: 51.21
+tensor(-0.3095)
+Episode 177	Episode length:    49	Average length: 51.20
+tensor(-0.6841)
+Episode 178	Episode length:    36	Average length: 51.11
+tensor(-1.3154)
+Episode 179	Episode length:    54	Average length: 51.13
+tensor(-3.5112)
+Episode 180	Episode length:    59	Average length: 51.17
+tensor(0.1963)
+Episode 181	Episode length:    59	Average length: 51.22
+tensor(-4.5151)
+Episode 182	Episode length:    47	Average length: 51.19
+tensor(3.1708)
+Episode 183	Episode length:    69	Average length: 51.29
+tensor(-3.0930)
+Episode 184	Episode length:    59	Average length: 51.33
+tensor(-3.6577)
+Episode 185	Episode length:    61	Average length: 51.38
+tensor(0.2367)
+Episode 186	Episode length:    45	Average length: 51.35
+tensor(-7.2212)
+Episode 187	Episode length:    59	Average length: 51.39
+tensor(-1.7747)
+Episode 188	Episode length:    50	Average length: 51.38
+tensor(0.2552)
+Episode 189	Episode length:    37	Average length: 51.31
+tensor(-2.1194)
+Episode 190	Episode length:    51	Average length: 51.31
+tensor(1.0586)
+Episode 191	Episode length:    59	Average length: 51.35
+tensor(-4.0284)
+Episode 192	Episode length:    51	Average length: 51.34
+tensor(-1.2127)
+Episode 193	Episode length:    49	Average length: 51.33
+tensor(-2.1172)
+Episode 194	Episode length:    47	Average length: 51.31
+tensor(0.5945)
+Episode 195	Episode length:    50	Average length: 51.30
+tensor(-2.4745)
+Episode 196	Episode length:    46	Average length: 51.28
+tensor(1.0835)
+Episode 197	Episode length:    57	Average length: 51.30
+tensor(-4.9087)
+Episode 198	Episode length:    44	Average length: 51.27
+tensor(1.8251)
+Episode 199	Episode length:    54	Average length: 51.28
+tensor(-5.2145)
+Episode 200	Episode length:    59	Average length: 51.32
+tensor(-1.5781)
+Episode 201	Episode length:    59	Average length: 51.36
+tensor(-2.9883)
+Episode 202	Episode length:    38	Average length: 51.29
+tensor(-3.7594)
+Episode 203	Episode length:    47	Average length: 51.27
+tensor(-1.2128)
+Episode 204	Episode length:    59	Average length: 51.31
+tensor(-1.4522)
+Episode 205	Episode length:    48	Average length: 51.29
+tensor(-1.5716)
+Episode 206	Episode length:    37	Average length: 51.22
+tensor(-3.4892)
+Episode 207	Episode length:    59	Average length: 51.26
+tensor(-0.3746)
+Episode 208	Episode length:    46	Average length: 51.24
+tensor(-0.6255)
+Episode 209	Episode length:    57	Average length: 51.26
+tensor(-3.2724)
+Episode 210	Episode length:    46	Average length: 51.24
+tensor(-2.9351)
+Episode 211	Episode length:    41	Average length: 51.19
+tensor(-5.5204)
+Episode 212	Episode length:    49	Average length: 51.18
+tensor(-3.0949)
+Episode 213	Episode length:    52	Average length: 51.18
+tensor(-1.1317)
+Episode 214	Episode length:    48	Average length: 51.17
+tensor(6.9422)
+Episode 215	Episode length:    60	Average length: 51.21
+tensor(-3.6575)
+Episode 216	Episode length:    45	Average length: 51.18
+tensor(-1.4423)
+Episode 217	Episode length:    39	Average length: 51.12
+tensor(-5.7016)
+Episode 218	Episode length:    48	Average length: 51.11
+tensor(-1.4235)
+Episode 219	Episode length:    45	Average length: 51.08
+tensor(5.0637)
+Episode 220	Episode length:    54	Average length: 51.10
+tensor(-1.3896)
+Episode 221	Episode length:    50	Average length: 51.09
+tensor(-6.2108)
+Episode 222	Episode length:    41	Average length: 51.05
+tensor(-3.4378)
+Episode 223	Episode length:    43	Average length: 51.01
+tensor(-1.6343)
+Episode 224	Episode length:    36	Average length: 50.94
+tensor(-0.8706)
+Episode 225	Episode length:    52	Average length: 50.95
+tensor(-3.4172)
+Episode 226	Episode length:    42	Average length: 50.91
+tensor(-3.1892)
+Episode 227	Episode length:    47	Average length: 50.89
+tensor(0.7889)
+Episode 228	Episode length:    41	Average length: 50.85
+tensor(-2.3307)
+Episode 229	Episode length:    51	Average length: 50.85
+tensor(-2.4407)
+Episode 230	Episode length:    44	Average length: 50.82
+tensor(-1.1140)
+Episode 231	Episode length:    54	Average length: 50.83
+tensor(-2.1475)
+Episode 232	Episode length:    38	Average length: 50.78
+tensor(-2.3251)
+Episode 233	Episode length:    46	Average length: 50.76
+tensor(1.00000e-02 *
+       -8.0950)
+Episode 234	Episode length:    59	Average length: 50.79
+tensor(-1.9635)
+Episode 235	Episode length:    45	Average length: 50.77
+tensor(-3.2038)
+Episode 236	Episode length:    46	Average length: 50.75
+tensor(-2.8059)
+Episode 237	Episode length:    51	Average length: 50.75
+tensor(2.8731)
+Episode 238	Episode length:    51	Average length: 50.75
+tensor(-1.9354)
+Episode 239	Episode length:    40	Average length: 50.70
+tensor(0.7317)
+Episode 240	Episode length:    56	Average length: 50.73
+tensor(0.4446)
+Episode 241	Episode length:    46	Average length: 50.71
+tensor(-1.3505)
+Episode 242	Episode length:    59	Average length: 50.74
+tensor(-5.7757)
+Episode 243	Episode length:    59	Average length: 50.77
+tensor(-2.9281)
+Episode 244	Episode length:    50	Average length: 50.77
+tensor(-2.0692)
+Episode 245	Episode length:    36	Average length: 50.71
+tensor(-2.4869)
+Episode 246	Episode length:    54	Average length: 50.72
+tensor(-4.2556)
+Episode 247	Episode length:    59	Average length: 50.76
+tensor(-2.3488)
+Episode 248	Episode length:    44	Average length: 50.73
+tensor(-5.1070)
+Episode 249	Episode length:    47	Average length: 50.71
+tensor(0.1952)
+Episode 250	Episode length:    44	Average length: 50.69
