@@ -18,8 +18,7 @@ jobs:
           pkg-manager: pip
       - run:
           name: Run tests
-          command: |
-          pytest --verbose --junitxml=test-results/junit.xml
+          command: pytest --verbose --junitxml=test-results/junit.xml
       - store_artifacts:
           path: test-results
       - store_test_results:
